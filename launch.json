@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Run HTTPServer",
+        "request": "launch",
+        "mainClass": "HTTPServer",
+        "vmArgs": "-cp .:json-20210307.jar"
+      }
+    ]
+  }
+  
