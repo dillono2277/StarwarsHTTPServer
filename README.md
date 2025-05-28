@@ -13,10 +13,33 @@ A custom-built Java HTTP server that serves Star Wars-themed pages, images, and 
 
 
 ## 🧪 How to Run
-1. Clone this repo
-2. Compile the server:
-   ```bash
-   javac src/HTTPServer.java
+
+Prerequisites
+-Java 17+ installed
+-Git installed
+-Internet connection (used for SWAPI requests)
+
+1. Clone the repository
+IN TERMINAL:
+git clone https://github.com/dillono2277/StarwarsHTTPServer.git
+cd StarwarsHTTPServer
+
+3. Compile the project
+IN TERMINAL:
+javac -cp .:json-20210307.jar src/HTTPServer.java
+
+5. Run the server
+IN TERMINAL:
+java -cp .:json-20210307.jar src.HTTPServer
+🔗 Open your browser and go to:
+http://localhost:8080/home
+
+6. To end server, open new terminal, type commands:
+   lsof -i :8080
+   kill -9 #####
+   (5 digit number that shows up)
+
+
 
 ## Routes to try
 | Route                | Description                                                  |
