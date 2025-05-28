@@ -21,24 +21,20 @@ Prerequisites
 
 1. Clone the repository
 IN TERMINAL:
-type : git clone https://github.com/dillono2277/StarwarsHTTPServer.git
+- type : "git clone https://github.com/dillono2277/StarwarsHTTPServer.git"
+- type : "cd StarwarsHTTPServer"
 
-type : cd StarwarsHTTPServer
+3. Compile the project IN TERMINAL:
+- type : "javac -cp .:json-20210307.jar src/HTTPServer.java"
 
-3. Compile the project
-IN TERMINAL:
-type : javac -cp .:json-20210307.jar src/HTTPServer.java
-
-5. Run the server
-IN TERMINAL:
-type : java -cp .:json-20210307.jar src.HTTPServer
-🔗 Open your browser and go to:
-http://localhost:8080/home
+5. Run the server IN TERMINAL:
+- type : "java -cp .:json-20210307.jar src.HTTPServer"
+- 🔗 Open your browser and go to:
+- http://localhost:8080/home
 
 6. To end server, open new terminal, type commands:
-   lsof -i :8080
-   kill -9 #####
-   (5 digit number that shows up)
+   - "lsof -i :8080"
+    - kill -9 ##### (5 digit number that shows up)
 
 
 
