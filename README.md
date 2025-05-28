@@ -21,16 +21,17 @@ Prerequisites
 
 1. Clone the repository
 IN TERMINAL:
-git clone https://github.com/dillono2277/StarwarsHTTPServer.git
-cd StarwarsHTTPServer
+type : git clone https://github.com/dillono2277/StarwarsHTTPServer.git
+
+type : cd StarwarsHTTPServer
 
 3. Compile the project
 IN TERMINAL:
-javac -cp .:json-20210307.jar src/HTTPServer.java
+type : javac -cp .:json-20210307.jar src/HTTPServer.java
 
 5. Run the server
 IN TERMINAL:
-java -cp .:json-20210307.jar src.HTTPServer
+type : java -cp .:json-20210307.jar src.HTTPServer
 🔗 Open your browser and go to:
 http://localhost:8080/home
 
